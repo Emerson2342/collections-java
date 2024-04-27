@@ -7,10 +7,11 @@ public class ListaTarefa {
     //atributo
     private List<Tarefa> tarefaList;
 
+
     //construtor, sempre que for criada, vai ser criada um ArrayList vazia
     public ListaTarefa() {
         this.tarefaList = new ArrayList<>();
-    }
+          }
 
     //métodos
     public void adicionarTarefa(String descricao) {
